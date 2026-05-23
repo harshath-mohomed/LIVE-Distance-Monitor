@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Arduino / PlatformIO
+.pio/
+*.elf
+*.hex
+*.bin
+*.map
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Arduino
+*.ino.bootloader.bin
+*.ino.partitions.bin
+*.ino.bin
+
+# Linux
+*.swp
